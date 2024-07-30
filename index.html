@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="instagram-container">
+        <div class="main-body">
+            <aside class="sidebar">
+                <div class="logo">
+                    <img src="instagram-logo.png" alt="Instagram Logo">
+                    <span>Instagram</span>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+                        <li><a href="#"><i class="fas fa-compass"></i> Explore</a></li>
+                        <li><a href="#"><i class="fas fa-film"></i> Reels</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> Messages <span class="badge">3</span></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i> Notifications</a></li>
+                        <li><a href="#"><i class="fas fa-plus-square"></i> Create</a></li>
+                        <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                        <li><a href="#"><i class="fas fa-ellipsis-h"></i> More</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main class="main-content">
+                <div class="stories">
+                    <div class="story">
+                        <img src="story1.jpeg" alt="Story 1">
+                        <span class="story-name">jennierubyjane</span>
+                    </div>
+                    <div class="story">
+                        <img src="story2.jpg" alt="Story 2">
+                        <span class="story-name">Clean_0828</span>
+                    </div>
+                    <div class="story">
+                        <img src="story3.jpg" alt="Story 3">
+                        <span class="story-name">Monika_Gidwani</span>
+                    </div>
+                    <div class="story">
+                        <img src="story4.jpg" alt="Story 4">
+                        <span class="story-name">Cattypie</span>
+                    </div>
+                    <div class="story">
+                        <img src="story5.jpg" alt="Story 5">
+                        <span class="story-name">EunwooCha</span>
+                    </div>
+                    <div class="story">
+                        <img src="story6.jpg" alt="Story 6">
+                        <span class="story-name">Shraddha's_fan</span>
+                    </div>
+                    <div class="story">
+                        <img src="story7.jpg" alt="Story 7">
+                        <span class="story-name">Epiified</span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <img src="profile-pic.png" alt="Profile Picture" class="post-profile-pic">
+                        <span class="post-username">All of us are Dead <i class="fas fa-check-circle verified-icon"></i></span>
+                        <span class="post-time">• 18h</span>
+                        <span class="post-options"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    <img src="post-image.png" alt="Post Image" class="post-image">
+                    <div class="post-actions">
+                        <div class="post-actions-left">
+                            <i class="fas fa-heart red-heart"></i>
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div class="post-actions-right">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">10,333 likes</div>
+                    <div class="post-caption"><strong>All of us are Dead</strong> All of us are Dead Season 2 coming soon🚨🤩.</div>
+                    <div class="post-comments">
+                        View all 659 comments
+                        <div class="comment">
+                            <span class="comment-username">shrushti12</span>
+                            <span class="comment-text">This is so exciting! Can’t wait for the new season🥳!</span>
+                        </div>
+                    </div>
+                    <div class="post-add-comment">
+                        <input type="text" placeholder="Add a comment...">
+                        <button type="button">Post</button>
+                    </div>
+                </div>
+                <!-- New Post -->
+<div class="post">
+    <div class="post-header">
+        <img src="profile-pic2.png" alt="Profile Picture" class="post-profile-pic">
+        <span class="post-username">Shreya_Berliker</span>
+        <span class="post-time">• 2h</span>
+        <span class="post-options"><i class="fas fa-ellipsis-h"></i></span>
+    </div>
+    <div class="post-carousel">
+        <input type="radio" id="slide1" name="carousel" checked>
+        <input type="radio" id="slide2" name="carousel">
+        <input type="radio" id="slide3" name="carousel">
+
+        <div class="carousel-slides">
+            <div class="carousel-slide">
+                <img src="post-image2-1.png" alt="Post Image 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="post-image2-2.png" alt="Post Image 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="post-image2-3.png" alt="Post Image 3">
+            </div>
+        </div>
+
+        <div class="carousel-controls">
+            <label for="slide1" class="carousel-dot"></label>
+            <label for="slide2" class="carousel-dot"></label>
+            <label for="slide3" class="carousel-dot"></label>
+        </div>
+    </div>
+    <div class="post-actions">
+        <div class="post-actions-left">
+            <i class="fas fa-heart red-heart"></i>
+            <i class="fas fa-comment"></i>
+            <i class="fas fa-paper-plane"></i>
+        </div>
+        <div class="post-actions-right">
+            <i class="fas fa-bookmark"></i>
+        </div>
+    </div>
+    <div class="post-likes">1,234 likes</div>
+    <div class="post-caption"><strong>Shreya_Berliker</strong>"Chasing july's golden hours and vibrant scenes🌷🎀💅🏻."</div>
+    <div class="post-comments">
+        View all 12 comments
+<div class="comment">
+                            <span class="comment-username">tejaswini_w</span>
+                            <span class="comment-text">Beautiful as always🩷✨</span>
+                        </div>
+
+    </div>
+    <div class="post-add-comment">
+        <input type="text" placeholder="Add a comment...">
+        <button type="button">Post</button>
+    </div>
+</div>
+            </main>
+            <aside class="suggestions">
+                <div class="account-switch">
+                    <img src="your-profile.png" alt="Your Profile" class="account-avatar">
+                    <div>
+                        <span class="account-name">_tejaswini_w</span>
+                        <span class="account-fullname">Tejaswini</span>
+                    </div>
+                    <a href="#" class="switch-btn">Switch</a>
+                </div>
+
+                <div class="suggestions-header">
+                    <span>Suggested for you</span>
+                    <a href="#">See All</a>
+                </div>
+                <ul class="suggestions-list">
+                    <li>
+                        <img src="suggested1.png" alt="Kanchan" class="suggested-avatar">
+                        <div>
+                            <span class="suggested-username">Kanchan_Garad</span>
+                            <span class="suggested-name">kanchan🌼</span>
+                        </div>
+                        <a href="#" class="follow-btn">Follow</a>
+                    </li>
+                    <li>
+                        <img src="suggested2.png" alt="Tanishka" class="suggested-avatar">
+                        <div>
+                            <span class="suggested-username">Tanishka.Makode</span>
+                            <span class="suggested-name">Tanishka🖤</span>
+                        </div>
+                        <a href="#" class="follow-btn">Follow</a>
+                    </li>
+                    <li>
+                        <img src="suggested3.png" alt=Vaishnavi" class="suggested-avatar">
+                        <div>
+                            <span class="suggested-username">Vaishnavi_Are01</span>
+                            <span class="suggested-name">Vaishnavi</span>
+                        </div>
+                        <a href="#" class="follow-btn">Follow</a>
+                    </li>
+                    <li>
+                        <img src="suggested4.png" alt="priya_" class="suggested-avatar">
+                        <div>
+                            <span class="suggested-username">priyanshi_1048</span>
+                            <span class="suggested-name">Priyanshi</span>
+                        </div>
+                        <a href="#" class="follow-btn">Follow</a>
+                    </li>
+                    <li>
+                        <img src="suggested5.png" alt="Shruti" class="suggested-avatar">
+                        <div>
+                            <span class="suggested-username">Nairomi.p_0119</span>
+                            <span class="suggested-name">Shruti</span>
+                        </div>
+                        <a href="#" class="follow-btn">Follow</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <footer class="footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Language</a></li>
+                <li><a href="#">Meta Verified</a></li>
+            </ul>
+            <p>© 2024 INSTAGRAM FROM META</p>
+        </footer>
+    </div>
+</body>
+</html>
